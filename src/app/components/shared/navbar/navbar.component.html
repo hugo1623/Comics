@@ -12,40 +12,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      PERSONAJES
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">CRONOLOGÍAS DC</a></li>
-                      <li><a class="dropdown-item" href="#">CRONOLOGÍAS MARVEL</a></li>
-                    </ul>
-
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">CÓMICS</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERIES</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item" href="#">DC</a></li>
-                        <li><a class="dropdown-item" href="#">MARVEL</a></li>
-                    </ul>
+                    <a class="nav-link active" aria-current="page" [routerLink]="['home']">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">CRONOLOGÍA DEL UNIVERSO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">ARTÍCULOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">TU BIBLIOTECAO</a>
+                    <a class="nav-link active" aria-current="page" [routerLink]="['dc']">DC</a>
                 </li>
                 
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['marvel']">Marvel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['about']">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['cronologias']">Cronologías del Universo</a>
+                </li>
             </ul>
 
             <form class="d-flex">

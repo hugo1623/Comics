@@ -1,18 +1,18 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-
-import {HomeComponent } from './components/home/home.component';
-// import { Name2Component } from './';
-// import { Name3Component } from './';
+import { HomeComponent } from './components/home/home.component';
+import { DcComponent } from './components/dc/dc.component';
+import { MarvelComponent } from './components/marvel/marvel.component';
+import { AboutComponent } from './components/about/about.component';
 // import { Name4Component } from './';
 // import { PageNotFoundComponent } from './';
 
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
-    // { path: '', component: Name2Component },
-    // { path: 'path3', component: Name3Component },
-    // { path: 'path4', component: Name4Component },
+    { path: 'dc', component: DcComponent },
+    { path: 'marvel', component: MarvelComponent },
+    { path: 'about', component: AboutComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
 ];
