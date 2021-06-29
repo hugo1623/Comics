@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { DcComponent } from './components/dc/dc.component';
 import { MarvelComponent } from './components/marvel/marvel.component';
+import { CronologiaComponent } from './components/cronologia/cronologia.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MarvelComponent } from './components/marvel/marvel.component';
     AboutComponent,
     DcComponent,
     MarvelComponent,
+    CronologiaComponent,
   ],
   imports: [
     BrowserModule,

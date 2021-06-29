@@ -5,7 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { DcComponent } from './components/dc/dc.component';
 import { MarvelComponent } from './components/marvel/marvel.component';
 import { AboutComponent } from './components/about/about.component';
-// import { Name4Component } from './';
+import {CronologiaComponent } from './components/cronologia/cronologia.component';
 // import { PageNotFoundComponent } from './';
 
 const APP_ROUTES: Routes = [
@@ -13,6 +13,7 @@ const APP_ROUTES: Routes = [
     { path: 'dc', component: DcComponent },
     { path: 'marvel', component: MarvelComponent },
     { path: 'about', component: AboutComponent },
+    { path: 'cronologia', component: CronologiaComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
 ];
