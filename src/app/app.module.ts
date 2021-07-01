@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { APP_ROUTING } from './app.routes';
 
 //Servicios
+import {HeroesService} from './servicios/heroes.service'
 
 //Componentes
 import { AppComponent } from './app.component';
@@ -29,7 +30,10 @@ import { CronologiaComponent } from './components/cronologia/cronologia.componen
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  /*van todos los servicios*/
+  providers: [
+    HeroesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
