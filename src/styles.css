@@ -1,10 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+/*Body*/
+body{
+  padding-bottom: 150px;
+}
 .main-container{
     margin-top: 20px;
 }
-.active a {
-    color: aqua;
+
+/*Navbar*/
+.navbar-color{
+    background-color: black;
+    height: 100px;
 }
+.navbar {
+    font-size: 17px;
+    font-family: Comic Sans MS;
+    }
+.nav-link{
+    color: rgb(150, 145, 145);
+}
+.nav-link:hover {
+    color: rgb(250, 246, 246);
+    text-overflow: initial;
+}
+.nav-link:focus{
+    color:white;
+}
+
 /*Animaciones*/
 .animated {
     -webkit-animation-duration: 1s;
